@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12328.396 insiders
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWalletAnalyzer.Core", "src\CryptoWalletAnalyzer.Core\CryptoWalletAnalyzer.Core.csproj", "{63836537-049C-4869-8D67-D6D521FF7B61}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWalletAnalyzer.UI", "src\CryptoWalletAnalyzer.UI\CryptoWalletAnalyzer.UI.csproj", "{A202409A-B679-4969-AA7D-C6D3F2E69139}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1A174728-BA4C-4F99-92D6-E25682D77D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWalletAnalyzer.Tests", "tests\CryptoWalletAnalyzer.Tests\CryptoWalletAnalyzer.Tests.csproj", "{5D27EF3B-8F9E-6B50-8254-A09A926BD911}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,18 @@ Global
 		{A202409A-B679-4969-AA7D-C6D3F2E69139}.Release|x64.Build.0 = Release|Any CPU
 		{A202409A-B679-4969-AA7D-C6D3F2E69139}.Release|x86.ActiveCfg = Release|Any CPU
 		{A202409A-B679-4969-AA7D-C6D3F2E69139}.Release|x86.Build.0 = Release|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Debug|x64.Build.0 = Debug|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Debug|x86.Build.0 = Debug|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Release|x64.ActiveCfg = Release|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Release|x64.Build.0 = Release|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Release|x86.ActiveCfg = Release|Any CPU
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +66,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{63836537-049C-4869-8D67-D6D521FF7B61} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{A202409A-B679-4969-AA7D-C6D3F2E69139} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{5D27EF3B-8F9E-6B50-8254-A09A926BD911} = {1A174728-BA4C-4F99-92D6-E25682D77D69}
 	EndGlobalSection
 EndGlobal
