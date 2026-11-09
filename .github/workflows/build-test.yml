@@ -1,0 +1,30 @@
+name: Build & Test
+
+on:
+  push:
+    branches: [ "develop", "main" ]
+  pull_request:
+    branches: [ "develop", "main" ]
+
+jobs:
+  build:
+    name: Build & Run Test Suite
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout Source Code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Restore Dependencies
+      run: dotnet restore CryptoWalletAnalyzer.sln
+
+    - name: Build Solution
+      run: dotnet build CryptoWalletAnalyzer.sln -c Release --no-restore
+
+    - name: Execute Unit Tests
+      run: dotnet test CryptoWalletAnalyzer.sln -c Release --no-build --verbosity normal --logger "trx;LogFileName=test-results.trx"
