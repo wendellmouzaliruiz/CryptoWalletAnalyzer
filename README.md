@@ -135,7 +135,7 @@ The resulting executable will be located at:
 
 **Wendell Mouzali Ruiz**  
 *Senior Software Architect & .NET Specialist (15+ years experience)*  
-* LinkedIn: [linkedin.com/in/wendell-mouzali-ruiz-60913955](https://www.linkedin.com/in/wendell-mouzali-ruiz-60913955/)  
+* LinkedIn: [linkedin.com/in/vvmru12](https://www.linkedin.com/in/vvmru12/)  
 * GitHub: [github.com/wendellmouzaliruiz](https://github.com/wendellmouzaliruiz)  
 
 *Built with passion, performance, and uncompromised security.*
